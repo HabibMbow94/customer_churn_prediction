@@ -20,23 +20,26 @@ Conception d'un flux de travail de prédiction du churn. La portée globale de l
 
 # Activation de l'Environment virtuel
 
-* Installation de l'environnement
+* Installation de l'environnemen `pipenv`
 
-Install pipenv
-!pip3 install pipenv  
+
+> `!pip3 install pipenv`  
 
 * Create a new Pipenv environment in that folder and activate that environment
- pipenv shell
+
+> `pipenv shell`
 
 * Install Streamlit in pipenv
-pipenv install streamlit
+
+> `pipenv install streamlit`
 
 Install joblib in pipenv
-* pipenv install joblib 
+
+> `pipenv install joblib`
 
 # Run APP
 
-* streamlit run App.py
+> `streamlit run App.py`
 
 
 # Demo App
