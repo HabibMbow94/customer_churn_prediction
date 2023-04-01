@@ -16,7 +16,33 @@ Conception d'un flux de travail de prédiction du churn. La portée globale de l
 5. Déploiement et surveillance : Il s'agit de la dernière étape du cycle de vie du développement de l'apprentissage automatique pour les prévisions de taux de désabonnement. C'est à ce stade que le modèle le plus approprié est mis en production. Il peut être intégré dans un logiciel existant ou devenir le noyau d'une nouvelle application.
 
 
+
+
+# Activation de l'Environment virtuel
+
+* Installation de l'environnement
+
+Install pipenv
+!pip3 install pipenv  
+
+* Create a new Pipenv environment in that folder and activate that environment
+ pipenv shell
+
+* Install Streamlit in pipenv
+pipenv install streamlit
+
+Install joblib in pipenv
+* pipenv install joblib 
+
+# Run APP
+
+* streamlit run App.py
+
+
+
 L'application à déployer fonctionnera par le biais de cas d'utilisation opérationnels : Prédiction en ligne : Ce cas d'utilisation génère des prédictions une par une pour chaque point de données (dans le contexte de cet article, un client). Prédiction par lots : Ce cas d'utilisation permet de générer des prédictions pour un ensemble d'observations de manière instantanée.
 
 
-![streamli_app](streamlit_app.mov)
+
+![streamli_app](streamlit_app.mp4)
+
