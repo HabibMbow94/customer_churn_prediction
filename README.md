@@ -43,6 +43,6 @@ Install joblib in pipenv
 L'application à déployer fonctionnera par le biais de cas d'utilisation opérationnels : Prédiction en ligne : Ce cas d'utilisation génère des prédictions une par une pour chaque point de données (dans le contexte de cet article, un client). Prédiction par lots : Ce cas d'utilisation permet de générer des prédictions pour un ensemble d'observations de manière instantanée.
 
 
-[![Demo App](streamlit_app.mov)](streamlit_app.mov)
+[![Demo App](/Users/habibmbow/Desktop/Orange_Hackton/streamlit_app.mov)](/Users/habibmbow/Desktop/Orange_Hackton/streamlit_app.mov)
 <!-- [streamli_app](streamlit_app.mp4) -->
 
